@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+}
+.heading1 {
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+}
+#defined{
+    font-style: italic;
+}
+.heading2{
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+}
+.text{
+    color: darkolivegreen;
+}
