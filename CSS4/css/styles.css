@@ -1,0 +1,36 @@
+
+body {
+    font-family: monospace, serif;
+    font-size: 18px;
+    font-stretch: ultra-expanded;
+}
+.head {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    display:inline;
+}
+#title-image{
+    display: flex;
+    justify-content: center;
+}
+.about {
+    display: flex;
+    justify-content: center;
+}
+#text {
+    width: 600px;
+    text-align: center;
+}
+a:link {
+    text-decoration-line: none;
+    color: black;
+}
+a:visited {
+    color: firebrick;
+}
