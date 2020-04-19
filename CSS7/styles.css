@@ -1,0 +1,31 @@
+        body{
+            font-family: 'Jura', sans-serif;
+            margin-right: auto;
+        }
+        .month{
+            display: grid;
+            grid-template-columns: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% 13.5%;
+            grid-gap: 5px;
+        }
+        .day{
+            border: solid 1px #e3e3d8;
+            box-shadow: 2px 2px #e3e3d8;
+            height: 100px;
+        }
+        .weekend{
+            background-color: orange;
+            box-shadow: 2px 2px #e3e3d8;
+        }
+        p{
+            text-align: left;
+            margin-left: 5px;
+            margin-top: 5px;
+            margin-right: 5px;
+
+        }
+        .event-note{
+            background-color: blue;
+        }
+        .event-note-important{
+            background-color: green;
+        }
