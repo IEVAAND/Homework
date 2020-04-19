@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS8</title>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Jūsų informacija</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Vardas:</label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="surname">Pavardė:</label></td>
+                    <td><input type="text" id="surname"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Klausimai</legend>
+            <label for="select">Kaip sužinojote apie mus?</label>
+            <select id="select">
+                <option>Google?</option>
+                <option>Facebook?</option>
+                <option>Instagram?</option>
+            </select>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td>Ar apsilankysite vėl?</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="mouse-on" for="yes">Taip</label>
+                        <input type="radio" id="yes" name="decision">
+
+                        <label class="mouse-on" for="no">Ne</label>
+                        <input type="radio" id="no" name="decision">
+
+                        <label class="mouse-on" for="maybe">Galbūt</label>
+                        <input type="radio" id="maybe" name="decision">
+                    </td>
+                </tr>
+            </table>
+            <br>
+                <label for="what-do-you-think">Ką manote apie kursą?</label>
+            <br>
+                <textarea id="what-do-you-think" placeholder="Rašykite viską, ką galvojate" rows="10" cols="100"></textarea>
+            <br>
+            <br>
+            <span>Pažymėkite programavimo/žymėjimo kalbas, su kuriomis esate susipažinę:</span>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="c" name="c">
+                        <label class="mouse-on" for="c">C#</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="java" name="java">
+                        <label class="mouse-on" for="java">JAVA</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="php" name="php">
+                        <label class="mouse-on" for="php">PHP</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="html" name="html">
+                        <label class="mouse-on" for="html">HTML</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="css" name="css">
+                        <label class="mouse-on" for="css">CSS</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="javascrpit" name="javascrpit">
+                        <label class="mouse-on" for="javascrpit">JavaScrpit</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="python" name="python">
+                        <label class="mouse-on" for="python">Python</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="ruby" name="ruby">
+                        <label class="mouse-on" for="ruby">Ruby</label>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <input type="submit" value="Siųsti">
+        </fieldset>
+    </form>
+</body>
+</html>

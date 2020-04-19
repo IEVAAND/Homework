@@ -1,0 +1,22 @@
+body {
+    font-family: 'Changa', sans-serif;
+    background-color: beige;
+}
+legend {
+    font-style: italic;
+}
+#name {
+    background-color: blanchedalmond;
+}
+#surname{
+    background-color: blanchedalmond;
+}
+.mouse-on:hover{
+    color: brown;
+}
+
+@media screen and (max-width:800px){
+            textarea {
+                width: 100%;
+            }
+        }
